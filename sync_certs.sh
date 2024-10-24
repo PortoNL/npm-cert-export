@@ -3,11 +3,11 @@
 # Nginx Proxy Manager Settings
 NPM_HOST_URL='root@10.1.1.251'
 # As they set in Docker ENV
-NPM_DATA='/docker/nginx-proxy-manager/data'
-NPM_LE='/docker/nginx-proxy-manager/letsencrypt'
+NPM_DATA='/home/portonl/data/compose/1/data'
+NPM_LE='/home/portonl/data/compose/1/letsencrypt'
 
 # Target Host
-TARGET_HOST='mail.eg23.ru'
+TARGET_HOST='mail.di135d.nl'
 TARGET_CRT_PATH='/opt/mailcow-dockerized/data/assets/ssl/cert.pem'
 TARGET_KEY_PATH='/opt/mailcow-dockerized/data/assets/ssl/key.pem'
 
