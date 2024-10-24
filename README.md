@@ -20,7 +20,7 @@ If local certificate already outdated, it will be replaced with the new one from
 1. Clone repository & make script executable 
 ```sh
 cd /opt
-git clone https://github.com/LazyGatto/npm-cert-export
+git clone https://PortoNL/npm-cert-export/npm-cert-export
 cd npm-cert-export
 chmod +x sync_certs.sh
 ```
