@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Nginx Proxy Manager Settings
-NPM_HOST_URL='root@10.1.1.251'
+NPM_HOST_URL='root@192.168.50.245'
 # As they set in Docker ENV
 NPM_DATA='/home/portonl/data/compose/1/data'
 NPM_LE='/home/portonl/data/compose/1/letsencrypt'
